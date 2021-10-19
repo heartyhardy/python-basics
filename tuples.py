@@ -1,12 +1,12 @@
-random_nums = (1, 5, 6, 7, 9, 10, 25, 56, 100)
+random_nums_tuples = (1, 5, 6, 7, 9, 10, 25, 56, 100)
 random_nums_list = [1, 5, 6, 7, 9, 10, 25, 56, 100]
 
-print(f'Length of random_nums: {len(random_nums)}')
+print(f'Length of random_nums: {len(random_nums_tuples)}')
 
 print("\n")
 
 
-for num in random_nums:
+for num in random_nums_tuples:
   print(f'Current num: {num}')
 else:
   print("End of loop\n")
@@ -14,13 +14,13 @@ else:
 
 print('Tuple Methods')
 print(100*"_")
-print(dir(random_nums))
+print(dir(random_nums_tuples))
 
 print("\n")
 
 
 import sys
-print(f'Size of random_nums Tuple is: {sys.getsizeof(random_nums)}')
+print(f'Size of random_nums Tuple is: {sys.getsizeof(random_nums_tuples)}')
 print(f'Size of random_nums List is: {sys.getsizeof(random_nums_list)}')
 
 
